@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
+}
+.outer-div{
+    overflow: hidden;
+}
+#logo{
+    height: 100px;
+    width: 300px;
+    margin-top: 10%;
+    mix-blend-mode: multiply;
+    filter:contrast(1);
+    -webkit-filter:contrast(1);
+}
+.inner-div{
+    height: 612px;
+    width: 348px;
+    margin-top: -20px;
+    margin-bottom:15%;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    padding: 5%;
+    padding-top: 35px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#Create-account{
+    margin-top: -20px;
+    font-weight: normal;
+}
+.customerInformation{
+    height: 30px;
+    width: 95%;
+    border-radius: 5px;
+    padding: 10px;
+    border:0.5px solid grey;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+#verify-button{
+    background-color: rgb(255, 208, 0);
+    padding: 1px 6px;
+    width: 90%;
+    height: 35px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    border-radius:5px;
+    border-style:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    -ms-border-radius:5px;
+    -o-border-radius:5px;
+}
+#verify-button:hover{
+    background-color:rgb(230, 190, 11);
+}
+hr.hr1{
+    border-top: 1px solid rgb(196, 187, 184);
+    margin-top:10px;
+    margin-bottom: 8px;
+}
+hr.hr2{
+    margin-top: 10px;
+}
+hr.hr3{
+    margin-top:-15px;
+}
+.conditon-of-use,.privacy-notic,.help{
+    padding: 5px;
+}
+body a{
+    text-decoration: none;
+}
+body a:hover{
+    text-decoration: underline;
+}
